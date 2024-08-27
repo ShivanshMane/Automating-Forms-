@@ -1,0 +1,166 @@
+/* MaintenanceForm.css */
+
+.maintenance-form {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b0000;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    flex: 0.3;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    flex: 0.7;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f9f9f9;
+  }
+  
+  .report-table th,
+  .report-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word; /* Ensure content wraps within the cell */
+    white-space: normal;   /* Allow text to wrap normally */
+  }
+  
+  .report-table th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+  
+  .report-table input[type="text"],
+  .report-table input[type="time"],
+  .report-table input[type="checkbox"],
+  .report-table input[type="radio"] {
+    width: 100%;  /* Use full width within the cell */
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  
+  .column-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the column */
+    gap: 4px; /* Ensure consistent spacing between elements */
+  }
+  
+  .column-group label {
+    display: flex;
+    align-items: center;
+    font-size: 14px; /* Normalize font size */
+    margin: 0; /* Remove margin */
+    padding: 4px 0; /* Add padding to make spacing uniform */
+  }
+  
+  .column-group input[type="checkbox"],
+  .column-group input[type="radio"] {
+    width: auto; /* Ensure checkboxes and radios do not stretch */
+    margin-right: 4px; /* Add some space between checkbox and label text */
+  }
+  
+  .add-row-button {
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .add-row-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* MaintenanceForm.css */
+
+/* Other styles remain unchanged */
+
+.signatures {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Create 6 equal columns */
+    gap: 10px; /* Space between the columns */
+    margin-top: 20px;
+    align-items: center; /* Vertically align the items */
+  }
+  
+  .signature-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .signature-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .signature-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

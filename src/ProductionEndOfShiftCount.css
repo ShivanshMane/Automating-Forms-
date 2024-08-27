@@ -1,0 +1,120 @@
+.pes-form-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pes-form-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pes-form-group {
+  margin-bottom: 15px;
+}
+
+.pes-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.pes-form-group input,
+.pes-form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.pes-form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.pes-form-row .pes-form-group {
+  flex: 1;
+}
+
+.pes-form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.pes-form-table th,
+.pes-form-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pes-form-table th {
+  background-color: #f0f0f0;
+}
+
+.pes-form-table td input,
+.pes-form-table td select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.pes-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pes-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for tablets */
+@media (min-width: 768px) {
+  .pes-form-container {
+    padding: 30px;
+  }
+
+  .pes-form-title {
+    font-size: 28px;
+  }
+
+  .pes-form-group label {
+    font-size: 20px;
+  }
+
+  .pes-form-group input,
+  .pes-form-group select {
+    font-size: 18px;
+  }
+
+  .pes-form-table th,
+  .pes-form-table td {
+    font-size: 18px;
+  }
+
+  .pes-form-table td input,
+  .pes-form-table td select {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 14px;
+    font-size: 20px;
+  }
+}

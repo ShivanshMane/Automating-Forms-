@@ -1,0 +1,195 @@
+body {
+    background-color: #86b5e1; /* Light blue background */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mc-main-content {
+    width: 100%; /* Ensure the main content takes full width */
+    max-width: 1800px; /* Maximum width to fit content */
+    padding: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.mc-logo {
+    text-align: center;
+    font-size: 3rem;
+    color: #360202; /* Dark brown */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.mc-content-sections, .mc-additional-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mc-card {
+    width: 45%;
+    background: linear-gradient(135deg, #f4f4f4, #eaeaea);
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mc-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.mc-section-title {
+    margin-bottom: 20px;
+    color: #360202; /* Dark brown */
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.mc-section-title svg {
+    margin-right: 10px;
+}
+
+.mc-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mc-list-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.mc-list-item svg {
+    margin-right: 10px;
+}
+
+.mc-link {
+    background: linear-gradient(135deg, #f4a261, #e76f51); /* Warm gradient */
+    color: #FFFFFF; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.mc-link svg {
+    margin-left: 10px;
+}
+
+.mc-link:hover {
+    background-color: #A52A2A; /* Brown */
+}
+
+/* New Styles */
+.mc-shift-performance {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.mc-form {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the form takes full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.mc-form div {
+    margin-bottom: 15px;
+}
+
+.mc-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mc-form input, .mc-form select {
+    width: 100%; /* Ensure input and select fields take full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.mc-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mc-form button:hover {
+    background-color: #218838;
+}
+
+/* Adjust table styles for full width */
+.mc-table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.mc-form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed; /* Ensure table cells are of fixed width */
+}
+
+.mc-form-table th,
+.mc-form-table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    min-width: 80px;
+}
+
+.mc-form-table th {
+    background-color: #eee;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.mc-form-table td input[type="text"],
+.mc-form-table td select {
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 80px;
+}
+
+.mc-abbreviation-container {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}

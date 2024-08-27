@@ -1,0 +1,86 @@
+/* src/Production.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.production-page {
+    padding: 20px;
+    background: linear-gradient(135deg, #e0e0e0, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #360202;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.page-title svg {
+    margin-right: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.summary-item {
+    background: linear-gradient(135deg, #f4f4f4, #eaeaea);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.summary-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.summary-item h2 {
+    margin-bottom: 10px;
+    color: #360202;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary-item h2 svg {
+    margin-right: 10px;
+}
+
+.summary-item p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.chart-container {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.chart-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}

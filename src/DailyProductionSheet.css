@@ -1,0 +1,81 @@
+.dps-form-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dps-form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dps-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dps-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 20px 10px;
+}
+
+.dps-form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dps-form-group input, 
+.dps-form-group select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.dps-form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed; /* Ensure columns have equal width */
+}
+
+.dps-form-table th, 
+.dps-form-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Center-align text for consistency */
+    vertical-align: middle; /* Ensure content is vertically centered */
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Add ellipsis if text is too long */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.dps-form-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.dps-form-table input[type="text"], 
+.dps-form-table input[type="time"], 
+.dps-form-table input[type="date"], 
+.dps-form-table select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.dps-form-table input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

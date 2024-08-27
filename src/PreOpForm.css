@@ -1,0 +1,113 @@
+.preop-form {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.instructions {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.preop-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.preop-table th,
+.preop-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal; /* Ensure text wraps */
+}
+
+.section-title {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.subsection-title {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+.pobutton {
+    padding: 8px 12px;
+    margin: 4px;
+    background-color: #f2f2f2; /* Grayish background */
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pobutton.pobutton-selected {
+    background: linear-gradient(135deg, #f4a261, #e76f51);
+    color: white;
+}
+
+.pobutton-submit {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #f4a261, #e76f51);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.pobutton-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust column widths in the preop-table */
+.preop-table th:nth-child(2),  /* Pre-Op Column */
+.preop-table td:nth-child(2) {
+    width: 10%; /* Smaller width for Pre-Op buttons */
+}
+
+.preop-table th:nth-child(1),
+.preop-table td:nth-child(1) {
+    width: 20%;
+}
+
+.preop-table th:nth-child(3),  /* Deficiency Found Column */
+.preop-table td:nth-child(3),
+.preop-table th:nth-child(4),  /* Corrective Actions Column */
+.preop-table td:nth-child(4) {
+    width: 35%; /* Larger width for text input fields */
+}
+
+/* Style for textarea to allow multiline and auto-expand */
+.preop-table td textarea {
+    width: 100%;
+    min-height: 40px;
+    resize: vertical;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

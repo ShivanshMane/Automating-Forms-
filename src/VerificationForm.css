@@ -1,0 +1,77 @@
+.vf-form-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.vf-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vf-form-group {
+  margin-bottom: 15px;
+}
+
+.vf-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.vf-form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.vf-large-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vf-form-container input[type="text"],
+.vf-form-container input[type="date"],
+.vf-form-container input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.vf-add-button, 
+.vf-remove-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vf-add-button:hover, 
+.vf-remove-button:hover {
+  background-color: #0056b3;
+}
+
+.vf-submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.vf-submit-button:hover {
+  background-color: #0056b3;
+}

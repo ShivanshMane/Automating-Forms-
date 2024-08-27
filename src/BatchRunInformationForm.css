@@ -1,0 +1,88 @@
+.brf-container {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brf-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brf-subtitle {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.brf-section {
+    margin-bottom: 20px;
+}
+
+.brf-ingredient {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.brf-inputblocks, .brf-supplier-inputblocks {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.brf-supplier-details {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label input, label textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"], .brf-add-button, .brf-remove-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button.brf-remove-button {
+    background-color: #f44336;
+}
+
+button.brf-remove-button:hover {
+    background-color: #e53935;
+}
+
+button[type="submit"]:hover, .brf-add-button:hover {
+    background-color: #45a049;
+}
+
+.brf-label {
+    width: 100%;
+}
